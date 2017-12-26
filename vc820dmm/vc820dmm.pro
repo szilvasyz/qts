@@ -12,6 +12,7 @@ greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 TARGET = vc820dmm
 TEMPLATE = app
 
+CONFIG += c++11 strict_c++
 
 SOURCES += \
     vc820win.cpp \
